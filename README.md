@@ -6,6 +6,9 @@ Miscellaneous scripts for the Computercraft Minecraft mod
 ### crafting_monitor.lua
 The crafting monitor is meant to use 1 Computercraft Advanced Monitor and expects a modem to be connected to an Applied Energistics system. It displays the current crafting status (busy/free) of each AE Crafting Processor on the system.
 
+### ingot_monitor.lua
+I created ingot monitor is to keep track of hour much Big Reactor fuel we had in the Applied Energistics system. It expects a modem to be connected to an AE system and looks for yellorium and cyanite ingots.
+
 ### power_monitor.lua
 The power monitor uses 1 line of 3 Computercraft Advanced Monitors (connected horizontally) and expects a reactor and 3 Hardened Energy Cells. It displays some helpful metrics like the stored RF (% of total capacity), the power status of the reactor, etc.
 
